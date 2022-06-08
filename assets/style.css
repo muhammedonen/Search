@@ -1,0 +1,15 @@
+*{
+  margin:0px;
+  padding:0px;
+
+}
+#text{
+  resize:none;
+  padding-left:10px;
+}
+
+mark{
+  padding: 0;
+  margin: 0;
+  background-color: #FFEE63;
+}

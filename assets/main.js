@@ -7,9 +7,6 @@ var text = '';
 var text1 = '';
 var val = '';
 
-
-
-
 btnSend.addEventListener('click', yaz);
 Search.addEventListener('input', arama);
 btnClear.addEventListener('click', clean)
@@ -23,10 +20,7 @@ function yaz() {
        text1 = Send.value;
      document.getElementById('pp').innerText = Send.value;
      Send.value = "";
-    
-    
-   }
-  
+    }
 }
 
 function arama() {
